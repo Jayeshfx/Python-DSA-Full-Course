@@ -1,0 +1,140 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Exercise 1: Calculator using Python | Python Tutorial - Day #7\n",
+    "- Repel : https://replit.com/@codewithharry/07-Day7-Exercise-1-Create-a-Calculator#.tutorial/01_Operators.md"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Operators\n",
+    "- Python has different types of operators for different operations. \n",
+    "To create a calculator we require arithmetic operators.\n",
+    "\n",
+    "\n",
+    "| Operator | Operator Name   | Example |                             |\n",
+    "|----------|-----------------|---------|-----------------------------|                            \n",
+    "| +        | Addition        | 15+7    |                             |\n",
+    "| -        | Subtraction     | 15-7    |                             |\n",
+    "| *        | Multiplication  | 5*7     |                             |\n",
+    "| **       | Exponential     | 5**3    |                             |\n",
+    "| /        | Division        | 5/3     |                             |\n",
+    "| %        | Modulus         | 15%7    | Returns the remainder value |\n",
+    "| //       | Floor Division  | 15//7   | Returns the Quotient value  |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The sum of a and b is = 22\n",
+      "The difference of a and b is = -8\n",
+      "The product of a and b is = 105\n",
+      "The power of a to the b is = 170859375\n",
+      "The division of a and b is = 2.142857142857143\n",
+      "The Modulus of a and b is = 1\n",
+      "The Floor division of a and b is = 2\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 7\n",
+    "\n",
+    "print(f\"The sum of a and b is = {a+b}\")\n",
+    "print(f\"The difference of a and b is = {b-a}\")\n",
+    "print(f\"The product of a and b is = {a*b}\")\n",
+    "print(f\"The power of a to the b is = {a**b}\")\n",
+    "print(f\"The division of a and b is = {a/b}\")\n",
+    "print(f\"The Modulus of a and b is = {a%b}\")\n",
+    "print(f\"The Floor division of a and b is = {a//b}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The Floor division of a and b is = 50\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f\"The Floor division of a and b is = {100//2}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Exercise 1 - Create a Calculator\n",
+    "- Create a calculator capable of performing addition, subtraction, multiplication and division operations on two numbers. \n",
+    "#\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The difference of values is: -1.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = float(input(\"Enter the value of A: \"))\n",
+    "b = float(input(\"Enter the value of B: \"))\n",
+    "\n",
+    "choice = int(input(\"Choose the operation you want to perform:\\n1. Addition\\n2. Subtraction\\n3. Product\\n\"))\n",
+    "\n",
+    "if choice == 1:\n",
+    "    print(f\"The sum of values is: {a + b}\")\n",
+    "elif choice == 2:\n",
+    "    print(f\"The difference of values is: {a - b}\")\n",
+    "elif choice == 3:\n",
+    "    print(f\"The product of values is: {a * b}\")\n",
+    "else:\n",
+    "    print(\"Enter a valid number\")\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

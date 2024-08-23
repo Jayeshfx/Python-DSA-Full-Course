@@ -1,0 +1,19 @@
+ALT + SHIFT + Down ▼    = To copy entire line and paste it below as it is 
+
+
+ALT = Use for holding the cursor and text for multiple selection so we can modify at a time.
+
+
+MARKDOWN UNDERLINE : 
+                    To underline this text, use the following HTML tag: <u>This text will be underlined</u>.
+
+
+MARKDOWN NEXT-LINE :
+                            This is the first line.<br>
+                            This is the second line.
+SHIFT + ENTER :
+                        Creates new interpreter below the current interpreter.
+
+MARKDOWN : How to make statement Bold:
+                            Use ** : **This_is_a_Statemnt_**
+                            
